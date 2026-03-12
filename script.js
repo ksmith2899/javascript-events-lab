@@ -56,9 +56,5 @@ const delegateMsg = document.getElementById("delegate-msg");
 container.addEventListener("click", (event) => {
     if(event.target.tagName === "BUTTON"){
         delegateMsg.textContent = `You clicked: ${event.target.textContent}`;
-   
-    form events
-
-focus/blur events}
+    }
 });
-event delegation.

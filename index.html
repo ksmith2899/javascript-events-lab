@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Event Handling Lab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JavaScript Event Handling Lab</h1>
+
+    <!-- Mouse Event Section -->
+    <section id="mouse-events">
+        <h2>Mouse Events</h2>
+        <button id="mouse-btn">Hover over me!</button>
+        <p id="mouse-msg">Hover over the button to see messages.</p>
+    </section>
+
+    <!-- Keyboard Event Section -->
+    <section id="keyboard-events">
+        <h2>Keyboard Events</h2>
+        <input type="text" id="key-input" placeholder="Type something">
+        <p id="key-msg">Last key pressed will appear here.</p>
+    </section>
+
+    <!-- Form Event Section -->
+    <section id="form-events">
+        <h2>Form Events</h2>
+        <form id="demo-form">
+            <input type="text" placeholder="Enter text" required>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="form-msg"></p>
+    </section>
+
+    <!-- Focus and Blur Section -->
+    <section id="focus-events">
+        <h2>Focus and Blur Events</h2>
+        <input type="text" id="focus-input" placeholder="Focus here">
+        <p id="focus-msg">Focus or blur the input to see messages.</p>
+    </section>
+
+    <!-- Event Delegation Section -->
+    <section id="delegation-events">
+        <h2>Event Delegation</h2>
+        <div id="button-container">
+            <button>Button 1</button>
+            <button>Button 2</button>
+            <button>Button 3</button>
+        </div>
+        <p id="delegate-msg">Click a button above.</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
